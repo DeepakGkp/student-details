@@ -1,2 +1,2 @@
-# student-details
-data
+# students-details
+Table
