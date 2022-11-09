@@ -47,13 +47,13 @@ public class Students {
                 Student s32 = new Student();
 
 
-                s11.get(1,"Deepak",19321,61,78, 91);
-                s21.get(1,"Jaglal", 19322, 77,91,65);
-                s31.get(1,"Arun", 19323, 85, 65,87);
+                s11.get(1,"Anshu",19321,61,78, 91);
+                s21.get(1,"Manish", 19322, 77,91,65);
+                s31.get(1,"Darshan", 19323, 85, 65,87);
 
-                s12.get(2,"Deepak",19321,68,74, 96);
-                s22.get(2,"Jaglal", 19322, 67,81,75);
-                s32.get(2,"Arun", 19323, 75, 95,77);
+                s12.get(2,"Anshu",19321,68,74, 96);
+                s22.get(2,"Manish", 19322, 67,81,75);
+                s32.get(2,"Darshan", 19323, 75, 95,77);
 
                 s11.display();
                 s12.display();
@@ -72,9 +72,9 @@ public class Students {
 
 
                 Map<Integer, String> map=new HashMap<>();
-                map.put(cgpaStd1,"19321, Vikash");
-                map.put(cgpaStd2,"19322, Akash");
-                map.put(cgpaStd3,"19323, Ankit");
+                map.put(cgpaStd1,"19321, Ajay");
+                map.put(cgpaStd2,"19322, Vikas");
+                map.put(cgpaStd3,"19323, Shreya");
 
                 int arr[] = {cgpaStd1,cgpaStd2,cgpaStd3};
 
@@ -83,7 +83,7 @@ public class Students {
                         for (int j = i+1; j < arr.length; j++) {
                                 if (arr[i]<arr[j])
                                 {
-                                        temp=arr[i];s
+                                        temp=arr[i];
                                         arr[i]=arr[j];
                                         arr[j]=temp;
                                 }
