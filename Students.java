@@ -34,7 +34,7 @@ class  Student{
 
 }
 
-public class StudentData {
+public class Students {
         public static void main(String[] args) {
                 Scanner sc = new Scanner(System.in);
 
